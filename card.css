@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef3f8;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    color: #4216aaa7;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+/* Flexbox Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin: 50px auto;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 260px;
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.profile-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4c6ec5;
+}
+
+/* Names - ID Selector */
+#bill {
+    color: #37190a;
+}
+
+#steve {
+    color: #5c0606;
+}
+
+#sundar {
+    color: #442304;
+}
+
+/* Role - Class Selector */
+.role {
+    font-size: 18px;
+    font-weight: bold;
+    color: #38085c;
+}
+
+/* Bio */
+.bio {
+    color: #053a48;
+    font-size: 15px;
+    line-height: 1.5;
+}
